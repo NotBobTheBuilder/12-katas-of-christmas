@@ -14,7 +14,7 @@ The objective of a kata is to solve it yourself and learn from the process. Whil
 
 Note: I don’t know whether the 12 days begin on Christmas Day or Boxing Day. If it’s Boxing Day - great; I knew that. If it’s Christmas Day, assume this is a joke about off by one errors or something witty like that.
 
-## Kata 01 (December 26)
+## Kata 01
 
 Write a program to determine whether a `word` is `even`; where
 
@@ -28,3 +28,21 @@ Examples input -> output:
 
   - `aaa` -> `false`
   - `bbb` -> `true`
+
+## Kata 02
+
+All time and accounting of it is inherently evil. Dates are evil, clocks are evil and [time zones are especially evil](http://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-times-in-1927-giving-a-strange-result/6841479#6841479).
+
+Write a program which reads in an [ISO 8601 date](https://en.wikipedia.org/wiki/ISO_8601) - for example, 2014-12-25 - and prints out the US & UK variants, and spoken form including month.
+
+It will be more rewarding to avoid your language’s inbuilt Date/Time utilities.
+
+Examples input -> output:
+ - `2014-12-25` ->
+    US: 12/25/2014
+    UK: 25/12/2014
+    Spoken: 25th of December 2014
+ - `2015-01-01` ->
+    US: 01/01/2015
+    UK: 01/01/2015
+    Spoken: 1st of January 2015
