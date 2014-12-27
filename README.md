@@ -46,3 +46,33 @@ Examples input -> output:
     US: 01/01/2015
     UK: 01/01/2015
     Spoken: 1st of January 2015
+
+## Kata 03
+
+7 Segment Displays look like this, when all cells are switched on:
+
+     —
+    | |
+     —
+    | |
+     —
+
+Write a program which reads in two numbers, and shows which 7-segment cells are common between them.
+
+Examples input -> output
+
+ - `1 8` ->
+
+
+      |
+
+      |
+
+- `2 5` ->
+
+
+     —
+
+     —
+
+     —
