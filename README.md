@@ -76,3 +76,15 @@ Examples input -> output
      —
 
      —
+
+## Kata 04
+
+An IPv4 address is a 32 bit integer, often represented in “dot notation” where the number is divided into 4 8-bit segments written in base 10, separated by dots.
+
+For example, the IP address `127.0.0.1` converts to `2130706433`:
+
+    2130706433 == 11111111 00000000 00000000 00000001
+                  \      / \      / \      / \      /
+                    127   .    0   .    0   .   1
+
+Write a program which converts IPv4 addresses between dot notation and base 10 numerical form.
