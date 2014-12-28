@@ -88,3 +88,15 @@ For example, the IP address `127.0.0.1` converts to `2130706433`:
                     127   .    0   .    0   .   1
 
 Write a program which converts IPv4 addresses between dot notation and base 10 numerical form.
+
+## Kata 05
+
+Write a program which calculates the cheapest arrangement of taxis for a given size of group.
+
+Assume it always costs £5 for a 4-person taxi, £7 pound for a 6 person taxi and £10 for a 10 person taxi.
+
+
+Examples:
+
+ - `12` -> `0x4 2x6 0x10`
+ - `14` -> `1x4 0x6 1x10`
