@@ -83,7 +83,7 @@ An IPv4 address is a 32 bit integer, often represented in “dot notation” whe
 
 For example, the IP address `127.0.0.1` converts to `2130706433`:
 
-    2130706433 == 11111111 00000000 00000000 00000001
+    2130706433 == 01111111 00000000 00000000 00000001
                   \      / \      / \      / \      /
                     127   .    0   .    0   .   1
 
