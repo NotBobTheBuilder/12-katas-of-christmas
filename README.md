@@ -100,3 +100,12 @@ Examples:
 
  - `12` -> `0x4 2x6 0x10`
  - `14` -> `1x4 0x6 1x10`
+
+## Kata 06
+
+Write a program which accepts 3 pairs of coordinates, which returns `true` if the final pair of coordinates are on the line joining the first two pairs.
+
+Examples:
+
+ - `(0, 0) (5, 5) (1, 1)` -> `true`
+ - `(0, 0) (5, 5) (10, 0)` -> `false`
