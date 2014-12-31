@@ -109,3 +109,14 @@ Examples:
 
  - `(0, 0) (5, 5) (1, 1)` -> `true`
  - `(0, 0) (5, 5) (10, 0)` -> `false`
+
+## Kata 07
+
+Hexadecimal and decimal notations are both systems for representing integers.
+
+Write a program which reads in a number in hexadecimal format, then converts to decimal.
+
+Examples: 
+
+ - `F` -> `15`
+ - `FF` -> `255`
